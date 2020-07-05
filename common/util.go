@@ -21,7 +21,7 @@ func DecodeHex(text string) []byte {
 }
 
 func GetHost() string {
-	CustomHost := os.Getenv("shareterm_HOST")
+	CustomHost := os.Getenv("SHARETERM_HOST")
 	if CustomHost != "" {
 		return CustomHost
 	}
