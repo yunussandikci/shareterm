@@ -24,8 +24,8 @@ github.com/valyala/bytebufferpool v1.0.0/go.mod h1:6bBcMArwyJ5K/AmCkWv1jt77kVWyC
 github.com/valyala/fasttemplate v1.0.1/go.mod h1:UQGH1tvbgY+Nz5t2n7tXsz52dQxojPUpymEIMZ47gx8=
 github.com/valyala/fasttemplate v1.1.1 h1:o7HedfIt0u4jgkQnk0jkUOUI45c0CbFgcOOVUpo/txI=
 github.com/valyala/fasttemplate v1.1.1/go.mod h1:UQGH1tvbgY+Nz5t2n7tXsz52dQxojPUpymEIMZ47gx8=
-github.com/yunussandikci/shareterm/common v0.0.2 h1:UbNWaRLxp7aFx5uF6DAtye9lKslou7ayFUVd6AJ3h+o=
-github.com/yunussandikci/shareterm/common v0.0.2/go.mod h1:JTKvIEjbAm5b7gpzhLAlVwKgbH2UdGVxt1T0QA+UP4k=
+github.com/yunussandikci/shareterm/common v0.0.1 h1:S/flE92fDGiL5AkieCduYGw7gsXMnUJe2jm44Po1haY=
+github.com/yunussandikci/shareterm/common v0.0.1/go.mod h1:NL+6Aq0wZJlG/J27BLfp3nPA9wuau4rOatRr+MoHweg=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 h1:psW17arqaxU48Z5kZ0CQnkZWQJsqcURM6tKiBApRjXI=
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
