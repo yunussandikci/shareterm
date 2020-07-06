@@ -3,12 +3,12 @@
 *Current version: 0.0.4*
 
 **ShareTerm** is minimalistc, open source online terminal log sharing tool where the server has zero knowledge of pasted data.
-It uses client-side *encryption* with AES-256 Bits. It fastens one simple process while you are developing, and *saves your time*. So that, you don't waste your time with trying to copy, paste, beautify. You just pipe the `shareterm` and it returns a simple shareble link.
+It uses **client-side encryption** with AES-256 Bits. It fastens one simple process while you are developing, and **saves your time**. So that, you don't waste your time with trying to copy, paste, beautify. You **just pipe the `shareterm`** and it returns a simple shareble link.
 
 # Shaterm-CLI
 
 ## Usage
-You just need to pipe shareterm to your command and it returns sharing url.\
+You just need to pipe shareterm to your command and it returns sharing url. By default, it uses **ShareTerm** servers.\
 Example:
 ```console
 foo@bar:~$ echo "Hey this is shareterm" | shareterm
