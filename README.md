@@ -6,15 +6,25 @@
 It uses client-side *encryption* with AES-256 Bits. It fastens one simple process while you are developing, and *saves your time*. So that, you don't waste your time with trying to copy, paste, beautify. You just pipe the `shareterm` and it returns a simple shareble link.
 
 # Shaterm-CLI
+
+## Usage
+You just need to pipe shareterm to your command and it returns sharing url.\
+Example:
+```console
+foo@bar:~$ echo "Hey this is shareterm" | shareterm
+https://shareterm.tech/read/<name>?key=<key>
+```
+
 ## Installation
 Shareterm available via HomeBrew. You can install with tap and install commands.
 ```
 brew tap yunussandikci/shareterm
 brew install shareterm-cli
 ```
+
 ## Configuration
 You can configure shareterm-cli to connect your own server via setting `SHARETERM_HOST` environment variable.\
-As default it uses `https://shareterm.tech` which is demo instance that doesn't promise availability of your data for long term.\
+By default it uses `https://shareterm.tech` which is demo instance that doesn't promise availability of your data for long term.\
 Example: `export SHARETERM_HOST=https://myownserver.com`
 
 # Shaterm-Server
