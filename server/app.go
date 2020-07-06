@@ -28,5 +28,5 @@ func (a *App) Initialize() {
 func (a *App) Run() {
 	utils.PrintStartInfo()
 	a.echo.HideBanner = true
-	a.echo.Logger.Fatal(a.echo.Start(fmt.Sprintf(":80")))
+	a.echo.Logger.Fatal(a.echo.Start(fmt.Sprintf(":8080")))
 }

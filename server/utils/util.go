@@ -13,4 +13,5 @@ func BuildPasteWebReadURL(fileName string, key string) string {
 func PrintStartInfo() {
 	log.Printf("\n   ______              ______            \n  / __/ /  ___ _______/_  __/__ ______ _ \n _\\ \\/ _ \\/ _ `/ __/ -_) / / -_) __/  ' \\\n/___/_//_/\\_,_/_/  \\__/_/  \\__/_/ /_/_/_/")
 	fmt.Printf("Host: %s\n", common.GetHost())
+	fmt.Printf("Shareterm running...")
 }
