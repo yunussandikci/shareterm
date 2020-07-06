@@ -1,24 +1,11 @@
 package common
 
 import (
-	"encoding/hex"
 	"github.com/sethvargo/go-password/password"
 	"os"
 )
 
-const DefaultHost = "http://127.0.0.1:9000"
-
-func EncodeHex(bytes []byte) string {
-	return hex.EncodeToString(bytes)
-}
-
-func DecodeHex(text string) []byte {
-	decodeText, decodeErr := hex.DecodeString(text)
-	if decodeErr != nil {
-		panic(decodeErr)
-	}
-	return decodeText
-}
+const DefaultHost = "https://shareterm.tech"
 
 func GetHost() string {
 	CustomHost := os.Getenv("SHARETERM_HOST")

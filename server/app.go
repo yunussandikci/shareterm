@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/yunussandikci/shareterm/server/handler"
@@ -20,10 +21,12 @@ func (a *App) Initialize() {
 	a.echo.Use(middleware.Logger())
 	a.echo.Use(middleware.Recover())
 	a.echo.Renderer = utils.NewRenderer("public")
-	a.echo.GET("/:name", a.webHandler.Read)
+	a.echo.GET("/web/:name", a.webHandler.Read)
 	a.echo.POST("/api", a.apiHandler.Create)
 }
 
 func (a *App) Run() {
-	a.echo.Logger.Fatal(a.echo.Start(":9000"))
+	utils.PrintStartInfo()
+	a.echo.HideBanner = true
+	a.echo.Logger.Fatal(a.echo.Start(fmt.Sprintf(":80")))
 }

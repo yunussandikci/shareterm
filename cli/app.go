@@ -20,7 +20,7 @@ func NewApp(file *os.File) App {
 }
 
 func (a App) execute() string {
-	debugInput := os.Getenv("DEBUG_INPUT")
+	debugInput := os.Getenv("SHARETERM_DEBUG_INPUT")
 	var readInput string
 	if debugInput == "" {
 		 readInput = string(a.readInput())

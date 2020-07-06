@@ -49,6 +49,6 @@ func (h ApiHandler) Create(c echo.Context) error {
 	}
 
 	return c.JSON(http.StatusCreated, common.PasteCreateResponse{
-		URL: utils.BuildPasteReadURL(generatedFileName, aesKey),
+		URL: utils.BuildPasteWebReadURL(generatedFileName, aesKey),
 	})
 }
