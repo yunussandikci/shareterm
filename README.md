@@ -17,7 +17,7 @@ https://shareterm.tech/read/<name>?key=<key>
 
 ## Installation
 Shareterm available via HomeBrew. You can install with tap and install commands.
-```
+```console
 brew tap yunussandikci/shareterm
 brew install shareterm-cli
 ```
@@ -25,7 +25,10 @@ brew install shareterm-cli
 ## Configuration
 You can configure shareterm-cli to connect your own server via setting `SHARETERM_HOST` environment variable.\
 By default it uses `https://shareterm.tech` which is demo instance that doesn't promise availability of your data for long term.\
-Example: `export SHARETERM_HOST=https://myownserver.com`
+Example: 
+```console
+export SHARETERM_HOST=https://myownserver.com
+```
 
 # Shaterm-Server
 Shareterm server is responsible from storing encrypted paste data and serving decrypted paste datas via it's web interface.\
@@ -34,7 +37,7 @@ It runs on `8080` port and  saved data to `data` folder in it.
 ### Docker
 You can directly run server with Docker.\
 Example docker-compose.yaml
-```
+```yaml
 version: '3'
 services:
   shareterm:
