@@ -9,8 +9,8 @@ require (
 	github.com/sethvargo/go-password v0.1.3
 	github.com/stretchr/testify v1.6.1 // indirect
 	github.com/valyala/fasttemplate v1.1.1 // indirect
-	github.com/yunussandikci/shareterm/common v0.0.2
+	github.com/yunussandikci/shareterm/common v0.0.3
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 )
 
-replace github.com/yunussandikci/shareterm/common => ../common
+//replace github.com/yunussandikci/shareterm/common => ../common
