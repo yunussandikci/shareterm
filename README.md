@@ -1,5 +1,5 @@
 # [![Shareterm](https://abload.de/img/shareterm_bannerp1jvz.png)](https://shareterm.tech)
-
+[![Shareterm](https://api.travis-ci.org/yunussandikci/shareterm.svg?branch=master)](https://shareterm.tech)\
 *Current version: 0.0.4*
 
 **ShareTerm** is minimalistc, open source online terminal log sharing tool where the server has zero knowledge of pasted data.
