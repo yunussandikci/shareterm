@@ -1,5 +1,6 @@
 # [![Shareterm](https://abload.de/img/shareterm_bannerp1jvz.png)](https://shareterm.tech)
 [![Shareterm](https://api.travis-ci.org/yunussandikci/shareterm.svg?branch=master)](https://shareterm.tech)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a33bfde910d83c90b032/maintainability)](https://codeclimate.com/github/yunussandikci/shareterm/maintainability)
 [![Shareterm](https://img.shields.io/docker/image-size/yunussandikci/shareterm)](https://shareterm.tech)\
 *Current version: 0.0.4*
 
